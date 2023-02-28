@@ -1,0 +1,34 @@
+.custom-font-AE {
+  font-family: 'AE';
+}
+
+.custom-font-Love {
+  font-family: 'Love';
+}
+
+.custom-bg{
+  background-image: url("../image/Image_Ordi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@font-face {
+  font-family: 'Love';
+  src: URL('../font/Love.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AE';
+  src: url('../font/Akira Expanded Demo.otf') format('truetype');
+}
+
+.text-custom-petit {
+  font-size: 0.675rem/* 14px */;
+  line-height: 1.0rem/* 20px */;
+}
+
+.text-custom-petit2 {
+  font-size: 0.575rem/* 14px */;
+  line-height: 1.0rem/* 20px */;
+}
